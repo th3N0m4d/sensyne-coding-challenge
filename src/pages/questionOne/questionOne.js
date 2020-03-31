@@ -9,9 +9,9 @@ class QuestionOne extends PureComponent {
 	}
 
   handleOnClick = () => {
-	this.setState((prevState) => ({
-	  counter: prevState.counter + 1
-	}))
+    this.setState((prevState) => ({
+      counter: prevState.counter + 1
+    }))
   }
 
   render () {

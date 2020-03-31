@@ -29,8 +29,7 @@ class QuestionTwo extends Component {
 		  })
 		})
 		
-	}
-  
+	}  
 
   render () {
     const { classes } = this.props
