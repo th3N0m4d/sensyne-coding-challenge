@@ -9,7 +9,7 @@ import UUID from 'uuid/v4'
 const defaultMock = {
   species: 'Human',
   name: 'Jon Snow',
-  icon: AcUnit,
+  Icon: AcUnit,
   description: 'You know nothing, Jon Snow.'
 }
 
@@ -18,7 +18,7 @@ const createRowData = ({ name, species, Icon, description }) => {
   rowData.id = UUID()
   rowData.name = name || rowData.name
   rowData.species = species || rowData.species
-  rowData.icon = Icon || rowData.icon
+  rowData.Icon = Icon || rowData.Icon
   rowData.description = description || rowData.description
   return rowData
 }
