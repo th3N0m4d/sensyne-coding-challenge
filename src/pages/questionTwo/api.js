@@ -1,13 +1,13 @@
-import axios from "axios";
+import axios from 'axios'
 
-async function getCardDetails (){
-	let newPromise = new Promise((resolve, reject)=>{
-		axios.get('http://localhost:3001/example').then((result)=>{
-			const {title, body, imgSrc} = result.data;
-			resolve(title, body, imgSrc)
-		})
-	})
-	return newPromise
+export const getCardDetails = async () => {
+  try {
+	 const { data } = await axios.get('http://localhost:3001/example')
+
+	 return data
+  } catch (error) {
+    console.log(error)
+
+    throw error
+  }
 }
-
-export { getCardDetails }
