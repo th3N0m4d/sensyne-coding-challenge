@@ -29,7 +29,7 @@ const QuestionThree = ({ data }) => {
         <List className={classes.root}>
           {data.map((item, i) => (
             <QuestionListItem item={item} key={item.id} divider={i !== data.length - 1} />
-		  ))}
+		      ))}
         </List>
       </Paper>
     </div>

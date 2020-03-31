@@ -19,8 +19,17 @@ const useStyles = makeStyles({
   }
 })
 
-const QuestionListItem = props => {
-  const { icon: Icon, name, species, id, divider, description } = props.item
+const DEFAULT_SPECIES = 'Other'
+const DEFAULT_ID = 'ERROR'
+const QuestionListItem = ({ item }) => {
+  const {
+    Icon,
+    name,
+    species = DEFAULT_SPECIES,
+    id = DEFAULT_ID,
+    divider,
+    description
+  } = item
   const classes = useStyles()
 
   return (
@@ -32,7 +41,7 @@ const QuestionListItem = props => {
           </Avatar>
         </ListItemAvatar>
         <ListItemText
-          primary={`${name}: ${species || 'Other'}`}
+          primary={`${name}: ${species}`}
           secondary={
             <>
               <div>
@@ -40,7 +49,7 @@ const QuestionListItem = props => {
                   variant='subtitle2'
                   className={classes.header}
                 >
-					Description:
+					        Description:
                 </Typography>
                 <Typography
                   variant='body2'
@@ -54,13 +63,13 @@ const QuestionListItem = props => {
                   variant='subtitle2'
                   className={classes.header}
                 >
-					Guid:
+					        Guid:
                 </Typography>
                 <Typography
                   variant='body2'
                   className={classes.label}
                 >
-                  {id || 'ERROR '}
+                  {id}
                 </Typography>
               </div>
 
