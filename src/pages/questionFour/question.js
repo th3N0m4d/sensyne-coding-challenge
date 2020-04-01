@@ -14,14 +14,13 @@ const question = () => {
       </Typography>
       <Typography variant='body1' gutterBottom>
 				Ah Great Britain! The whole island has so much to offer to keen adventurers and tourists alike!
-        Some would even say that even travelers from outer space have visited the island leaving some messages on crop fields across the island.
-        The map you see shows how many crop circles were cataloged this year.
+        Some would even say that travelers from outer space have visited this beautiful place leaving some messages on crop fields.
       </Typography>
       <Typography variant='body1' gutterBottom>
-				Your task is to fix the bugs on the Maps component.
+        The map you see below shows how many crop circles were cataloged this year.
       </Typography>
       <Typography variant='body1' gutterBottom>
-				Someone unfortunately left the component unatended and committed the code before going on vacation. Could you fix the bugs and refactor the code if you have spare time? Sweet!
+				Unfortunately someone left the component unattended and committed the code with bugs before going on vacation. Could you fix the bugs and refactor the code if you have spare time? Sweet!
       </Typography>
       <CardMedia
         image={solution}
