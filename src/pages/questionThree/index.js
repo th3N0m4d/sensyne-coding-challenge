@@ -23,7 +23,7 @@ const questionThree = () => {
 
   return (
     <ErrorBoundary question={Question}>
-      <QuestionThree data={mockData} />
+      <QuestionThree items={mockData} />
     </ErrorBoundary>
   )
 }

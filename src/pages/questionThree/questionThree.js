@@ -20,15 +20,15 @@ const useStyles = makeStyles({
   }
 })
 
-const QuestionThree = ({ data }) => {
+const QuestionThree = ({ items }) => {
   const classes = useStyles()
 
   return (
     <div className={classes.container}>
       <Paper>
         <List className={classes.root}>
-          {data.map((item, i) => (
-            <QuestionListItem item={item} key={item.id} divider={i !== data.length - 1} />
+          {items.map((item, i) => (
+            <QuestionListItem item={item} key={item.id} divider={i !== items.length - 1} />
 		      ))}
         </List>
       </Paper>
