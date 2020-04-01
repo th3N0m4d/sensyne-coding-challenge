@@ -1,6 +1,8 @@
 import React, { PureComponent } from 'react'
 import Button from '@material-ui/core/Button'
 
+import { Container } from './atoms'
+
 class QuestionOne extends PureComponent {
 
 	state = {
@@ -16,11 +18,11 @@ class QuestionOne extends PureComponent {
 
   render () {
     return (
-      <div style={{ marginTop: 48 }}>
+      <Container>
         <Button variant='contained' onClick={this.handleOnClick}>
           {this.state.label} {this.state.counter} times
         </Button>
-      </div>
+      </Container>
     )
   }
 }
