@@ -12,6 +12,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "styled-components": "^5.0.1",
+    "highcharts": "latest",
+    "highcharts-react-official": "2.0.0",
     "uuid": "^3.3.3"
   },
   "scripts": {
