@@ -3,24 +3,24 @@ import renderer from 'react-test-renderer'
 import { shallow } from 'enzyme'
 import Button from '@material-ui/core/Button'
 
-import QuestionOne from '../pages/questionOne/questionOne'
+import Counter from '../pages/questionOne/Counter'
 
 const expectToMatchSnapshot = component => {
   expect(renderer.create(component).toJSON()).toMatchSnapshot()
 }
 
-describe('QuestionOne', () => {
+describe('Counter', () => {
   it('should render component', () => {
-    expectToMatchSnapshot(<QuestionOne />)
+    expectToMatchSnapshot(<Counter />)
   })
 
   it('should render component with initial count of 7', () => {
-    expectToMatchSnapshot(<QuestionOne count={7} />)
+    expectToMatchSnapshot(<Counter count={7} />)
   })
 
   it('should trigger onClick', () => {
     const onClickSpy = jest.fn()
-    const wrapper = shallow(<QuestionOne onClick={onClickSpy} />)
+    const wrapper = shallow(<Counter onClick={onClickSpy} />)
 
     const button = wrapper.find(Button)
 

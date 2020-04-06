@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`QuestionOne should render component 1`] = `
+exports[`Counter should render component 1`] = `
 <div
   className="sc-AxjAm jTNVWA"
 >
@@ -30,7 +30,7 @@ exports[`QuestionOne should render component 1`] = `
 </div>
 `;
 
-exports[`QuestionOne should render component with initial count of 7 1`] = `
+exports[`Counter should render component with initial count of 7 1`] = `
 <div
   className="sc-AxjAm jTNVWA"
 >

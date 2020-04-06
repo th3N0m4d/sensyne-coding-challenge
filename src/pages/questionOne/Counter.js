@@ -8,7 +8,7 @@ const propTypes = {
   onClick: PropTypes.func
 }
 
-const QuestionOne = ({ count, onClick }) => (
+const Counter = ({ count, onClick }) => (
   <Container>
     <Button variant='contained' onClick={onClick}>
       {`I've been clicked: ${count} times`}
@@ -16,6 +16,6 @@ const QuestionOne = ({ count, onClick }) => (
   </Container>
 )
 
-QuestionOne.propTypes = propTypes
+Counter.propTypes = propTypes
 
-export default QuestionOne
+export default Counter
