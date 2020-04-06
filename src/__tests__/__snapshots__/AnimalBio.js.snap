@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimalBio should render component 1`] = `
+<div
+  className="AnimalBio-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root AnimalBio-card-2 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root AnimalBio-content-4"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        
+      </h2>
+      <div
+        className="AnimalBio-body-5"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AnimalBio should render component with body 1`] = `
+<div
+  className="AnimalBio-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root AnimalBio-card-2 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root AnimalBio-content-4"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        
+      </h2>
+      <div
+        className="AnimalBio-body-5"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.      
+      ",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AnimalBio should render component with title 1`] = `
+<div
+  className="AnimalBio-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root AnimalBio-card-2 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root AnimalBio-content-4"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        Hello there!
+      </h2>
+      <div
+        className="AnimalBio-body-5"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AnimalBio should render image 1`] = `
+<div
+  className="AnimalBio-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiCard-root AnimalBio-card-2 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardMedia-root AnimalBio-media-3"
+      style={
+        Object {
+          "backgroundImage": "url(\\"data:image/png;base64\\")",
+        }
+      }
+      title=""
+    />
+    <div
+      className="MuiCardContent-root AnimalBio-content-4"
+    >
+      <h2
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+      >
+        
+      </h2>
+      <div
+        className="AnimalBio-body-5"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
