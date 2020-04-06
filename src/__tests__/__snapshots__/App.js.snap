@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render component 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <button
+        aria-label="menu"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-1 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </button>
+      <h6
+        className="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+      >
+        Sensyne Health Front End Test
+      </h6>
+    </div>
+  </header>
+  <div />
+  <div />
+  <div
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "auto",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "padding": 24,
+          "textAlign": "left",
+        }
+      }
+    >
+      <h4
+        className="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom"
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Welcome to the Sensyne Front End Test Suite
+      </h4>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        There are a number of tasks for you to try and solve, each one presents itself as a bug that needs fixing.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        We wanted to give you a chance to show off your skills but in a way that would reflect working with an existing (imperfect) code base.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Feel free to alter this playground as much as you want, add libraries or take them away.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Please feel free to refactor any (and all) of the code in this project, in fact we encourage it.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        And spend as much or as little time as you deem fit playing, solving and improving this playground.
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+      >
+        Questions can be reached via the burger icon in the top left, and we've provided a simple error boundary to display what is happening on the right hand side of each page.
+      </p>
+    </div>
+  </div>
+</div>
+`;
