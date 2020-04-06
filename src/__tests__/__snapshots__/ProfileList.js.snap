@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileList should render component 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <ul
+      className="MuiList-root makeStyles-root-2 MuiList-padding"
+    />
+  </div>
+</div>
+`;
+
+exports[`ProfileList should render two items 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <ul
+      className="MuiList-root makeStyles-root-2 MuiList-padding"
+    >
+      <li
+        className="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+        >
+          <div
+            className="MuiAvatar-root MuiAvatar-colorDefault"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 11h-4.17l3.24-3.24-1.41-1.42L15 11h-2V9l4.66-4.66-1.42-1.41L13 6.17V2h-2v4.17L7.76 2.93 6.34 4.34 11 9v2H9L4.34 6.34 2.93 7.76 6.17 11H2v2h4.17l-3.24 3.24 1.41 1.42L9 13h2v2l-4.66 4.66 1.42 1.41L11 17.83V22h2v-4.17l3.24 3.24 1.42-1.41L13 15v-2h2l4.66 4.66 1.41-1.42L17.83 13H22z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiListItemText-root MuiListItemText-multiline"
+        >
+          <span
+            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+          >
+            Sponge Bob: Other
+          </span>
+          <p
+            className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            <div>
+              <h6
+                className="MuiTypography-root makeStyles-header-35 MuiTypography-subtitle2"
+              >
+                Description:
+              </h6>
+              <p
+                className="MuiTypography-root makeStyles-label-36 MuiTypography-body2"
+              />
+            </div>
+            <div>
+              <h6
+                className="MuiTypography-root makeStyles-header-35 MuiTypography-subtitle2"
+              >
+                Guid:
+              </h6>
+              <p
+                className="MuiTypography-root makeStyles-label-36 MuiTypography-body2"
+              >
+                1
+              </p>
+            </div>
+          </p>
+        </div>
+      </li>
+      <hr
+        className="MuiDivider-root MuiDivider-middle"
+      />
+      <li
+        className="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+        >
+          <div
+            className="MuiAvatar-root MuiAvatar-colorDefault"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 11h-4.17l3.24-3.24-1.41-1.42L15 11h-2V9l4.66-4.66-1.42-1.41L13 6.17V2h-2v4.17L7.76 2.93 6.34 4.34 11 9v2H9L4.34 6.34 2.93 7.76 6.17 11H2v2h4.17l-3.24 3.24 1.41 1.42L9 13h2v2l-4.66 4.66 1.42 1.41L11 17.83V22h2v-4.17l3.24 3.24 1.42-1.41L13 15v-2h2l4.66 4.66 1.41-1.42L17.83 13H22z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="MuiListItemText-root MuiListItemText-multiline"
+        >
+          <span
+            className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+          >
+            Patryk Star: Other
+          </span>
+          <p
+            className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary"
+          >
+            <div>
+              <h6
+                className="MuiTypography-root makeStyles-header-35 MuiTypography-subtitle2"
+              >
+                Description:
+              </h6>
+              <p
+                className="MuiTypography-root makeStyles-label-36 MuiTypography-body2"
+              />
+            </div>
+            <div>
+              <h6
+                className="MuiTypography-root makeStyles-header-35 MuiTypography-subtitle2"
+              >
+                Guid:
+              </h6>
+              <p
+                className="MuiTypography-root makeStyles-label-36 MuiTypography-body2"
+              >
+                2
+              </p>
+            </div>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

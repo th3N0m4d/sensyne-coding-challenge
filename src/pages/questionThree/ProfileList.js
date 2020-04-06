@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import Paper from '@material-ui/core/Paper'
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import Profile from './Profile'
 
@@ -20,7 +21,24 @@ const useStyles = makeStyles({
   }
 })
 
-const QuestionThree = ({ items }) => {
+const propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      Icon: PropTypes.any,
+      name: PropTypes.string,
+      species: PropTypes.string,
+      divider: PropTypes.bool,
+      description: PropTypes.string,
+      id: PropTypes.any
+    })
+  )
+}
+
+const defaultProps = {
+  items: []
+}
+
+const ProfileList = ({ items }) => {
   const classes = useStyles()
 
   return (
@@ -35,4 +53,8 @@ const QuestionThree = ({ items }) => {
     </div>
   )
 }
-export default QuestionThree
+
+ProfileList.propTypes = propTypes
+ProfileList.defaultProps = defaultProps
+
+export default ProfileList

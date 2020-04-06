@@ -4,7 +4,7 @@ import BugReport from '@material-ui/icons/BugReport'
 import Pets from '@material-ui/icons/Pets'
 
 import ErrorBoundary from '../../components/errorBoundary'
-import QuestionThree from './questionThree'
+import ProfileList from './ProfileList'
 import Question from './question'
 import { createRowData } from './mocks'
 
@@ -23,7 +23,7 @@ const questionThree = () => {
 
   return (
     <ErrorBoundary question={Question}>
-      <QuestionThree items={mockData} />
+      <ProfileList items={mockData} />
     </ErrorBoundary>
   )
 }
