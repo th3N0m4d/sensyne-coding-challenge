@@ -3,7 +3,7 @@ import List from '@material-ui/core/List'
 import Paper from '@material-ui/core/Paper'
 import React from 'react'
 
-import QuestionListItem from './questionListItem'
+import Profile from './Profile'
 
 const useStyles = makeStyles({
   container: {
@@ -28,7 +28,7 @@ const QuestionThree = ({ items }) => {
       <Paper>
         <List className={classes.root}>
           {items.map((item, i) => (
-            <QuestionListItem item={item} key={item.id} divider={i !== items.length - 1} />
+            <Profile {...item} key={item.id} divider={i !== items.length - 1} />
 		      ))}
         </List>
       </Paper>

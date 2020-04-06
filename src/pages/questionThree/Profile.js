@@ -5,6 +5,8 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles'
+import PropTypes from 'prop-types'
+import AcUnit from '@material-ui/icons/AcUnit'
 
 import Divider from '@material-ui/core/Divider'
 
@@ -19,17 +21,23 @@ const useStyles = makeStyles({
   }
 })
 
-const DEFAULT_SPECIES = 'Other'
-const DEFAULT_ID = 'ERROR'
-const QuestionListItem = ({ item }) => {
-  const {
-    Icon,
-    name,
-    species = DEFAULT_SPECIES,
-    id = DEFAULT_ID,
-    divider,
-    description
-  } = item
+const propTypes = {
+  Icon: PropTypes.any,
+  name: PropTypes.string,
+  species: PropTypes.string,
+  divider: PropTypes.bool,
+  description: PropTypes.string,
+  id: PropTypes.any
+}
+
+const defaultProps = {
+  id: 'Other',
+  name: 'N/A',
+  species: 'Other',
+  Icon: AcUnit
+}
+
+const Profile = ({ id, Icon, name, species, divider, description }) => {
   const classes = useStyles()
 
   return (
@@ -82,4 +90,7 @@ const QuestionListItem = ({ item }) => {
   )
 }
 
-export default QuestionListItem
+Profile.propTypes = propTypes
+Profile.defaultProps = defaultProps
+
+export default Profile
