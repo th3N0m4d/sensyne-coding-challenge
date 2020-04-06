@@ -14,6 +14,10 @@ describe('QuestionOne', () => {
     expectToMatchSnapshot(<QuestionOne />)
   })
 
+  it('should render component with initial count of 7', () => {
+    expectToMatchSnapshot(<QuestionOne count={7} />)
+  })
+
   it('should trigger onClick', () => {
     const onClickSpy = jest.fn()
     const wrapper = shallow(<QuestionOne onClick={onClickSpy} />)
