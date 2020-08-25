@@ -5341,9 +5341,9 @@ highcharts-react-official@2.0.0:
   integrity sha512-pEf1HBCmkJlIY6lAkjKXjjxaqZWUwcNcKrEIM2CFhXtLcl5VntiSgiVXe/pkDXyZG94mM90c72Z+8rnJ8ua6Dw==
 
 highcharts@latest:
-  version "8.0.4"
-  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-8.0.4.tgz#a717434012bd5f9b82b94b737d62acec501d360c"
-  integrity sha512-RD86/w7VNwuY96c2Pv16dtZujJ4vg5viiVjbFF/TCrvFpmtQRzBIECG90ww0JtiK6+6TKlwCYf0an+kgQshnRw==
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-8.2.0.tgz#3d4893015caf1a7c9ed85284d983911e844649f3"
+  integrity sha512-s3R7UEaMWUDJNxFfdjuiOtI8rnSvhEZUNN4TA7LiDRc9Tw7DUKvTv5WXSTYzxojokLbybwwlf9t3jg/meAUTnQ==
 
 history@^4.9.0:
   version "4.10.1"
